@@ -1,0 +1,9 @@
+uvicorn
+fastapi
+dotenv
+sqlalchemy
+psycopg[binary]
+pydantic-settings
+
+# LLM for checklist generation (Groq SDK here)
+groq

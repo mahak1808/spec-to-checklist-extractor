@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  /* Individual Palette Colors */
+  --color-brand-orange: #e65416;
+  --color-brand-beige: #f5e7c6;
+  --color-brand-offwhite: #faf3e1;
+  --color-brand-grey: #52555a;
+  --color-brand-charcoal: #303236;
+
+  /* Diagonal Gradient (matches the color stop balance in the image) */
+  --background-image-brand-gradient: linear-gradient(
+    45deg,
+    #e65416 15%,
+    #d8d6c9 85%
+  );
+}
